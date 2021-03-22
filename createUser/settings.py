@@ -4,7 +4,7 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-SECRET_KEY = 'uhx6h-if15vqz64))-^bb@=3b+w*fy_3)&%7)ns6wegi8#fudb'
+SECRET_KEY = ...
 
 DEBUG = True
 

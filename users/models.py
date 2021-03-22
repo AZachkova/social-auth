@@ -44,7 +44,7 @@ class User(AbstractBaseUser):
         unique=True,
     )
     username = models.CharField(max_length=30, unique=True)
-    image = models.ImageField(verbose_name='Аватар', default='default.jpg', upload_to='profile_pics')
+    image = models.ImageField(verbose_name='Аватар', default='default.png', upload_to='profile_pics')
 
     surname = models.CharField(verbose_name='Фамилия:', max_length=150, blank=True)
     first_name = models.CharField(verbose_name='Имя:', max_length=150, blank=True)

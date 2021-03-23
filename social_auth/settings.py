@@ -37,7 +37,7 @@ MIDDLEWARE = [
     'social_django.middleware.SocialAuthExceptionMiddleware'
 ]
 
-ROOT_URLCONF = 'social-auth.urls'
+ROOT_URLCONF = 'social_auth.urls'
 
 TEMPLATES = [
     {
@@ -63,7 +63,7 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
 )
 
-WSGI_APPLICATION = 'social-auth.wsgi.application'
+WSGI_APPLICATION = 'social_auth.wsgi.application'
 
 
 DATABASES = {

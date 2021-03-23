@@ -26,7 +26,6 @@ touch social_auth/local_settings.py
 ```
 Запустите проект.
 ```bash
-python manage.py makemigrations 
 python manage.py migrate 
 python manage.py runserver 
 ```

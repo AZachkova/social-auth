@@ -14,10 +14,12 @@ ul {
 
 .bg-steel {
   background-color: #5f788a;
+  /*background-color: #AFEEEE;*/
 }
 
 .site-header .navbar-nav .nav-link {
   color: #cbd5db;
+
 }
 
 .site-header .navbar-nav .nav-link:hover {

@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ```
 Создайте файл local_settings.py и поместите в него: SECRET_KEY, SOCIAL_AUTH_GITHUB_KEY и SOCIAL_AUTH_GITHUB_SECRET.
 ```bash
-touch social-auth/local_settings.py 
+touch social_auth/local_settings.py 
 ```
 Запустите проект.
 ```bash

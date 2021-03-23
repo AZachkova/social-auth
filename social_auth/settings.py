@@ -5,7 +5,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-SECRET_KEY = ...
+SECRET_KEY = None
 
 DEBUG = True
 
@@ -115,8 +115,8 @@ LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
 
 
-# SOCIAL_AUTH_GITHUB_KEY = ...
-# SOCIAL_AUTH_GITHUB_SECRET = ...
+SOCIAL_AUTH_GITHUB_KEY = None
+SOCIAL_AUTH_GITHUB_SECRET = None
 
 try:
     from .local_settings import *

@@ -21,7 +21,8 @@ class ProfileView(LoginRequiredMixin, View):
         return render(request, 'users/profile.html', context)
 
     def post(self, request):
-        u_form = UserUpdateForm(request.POST, instance=request.user)
+        # u_form = UserUpdateForm(request.POST, instance=request.user)
+        u_form = UserUpdateForm(request.POST, files=request.FILES, instance=request.user)
 
         if not u_form.is_valid():
             return render(request, 'users/profile.html', {'u_form': u_form})
